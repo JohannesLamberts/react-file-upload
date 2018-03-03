@@ -138,7 +138,7 @@ interface FileUpload {
 ## FileSelect
 |Name|Type|Default|Description|
 |---|---|---|---|
-| onChange: `(files: File[]) => void` | (required) | handler function
+| onChange | `(files: File[]) => void` | (required) | handler function
 | children | `React.ReactNode` | (required)
 | multiple | `boolean` | false
 | className | `string` | undefined | 
