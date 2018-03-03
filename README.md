@@ -1,8 +1,6 @@
 <h1 align="center">react-file-uploads</h1>
 
-<div align="center">
 [![CircleCI](https://img.shields.io/circleci/project/github/JohannesLamberts/react-file-uploads/master.svg)](https://circleci.com/gh/JohannesLamberts/react-file-uploads)
-</div>
 
 # Features
 This packages provides some easy-to-use react components for file uploads.
