@@ -1,9 +1,11 @@
 import * as React from 'react';
 
 export interface FileSelectProps {
-    multiple?: boolean;
     onChange: (files: File[]) => void;
     children: React.ReactNode;
+    multiple?: boolean;
+    className?: string;
+    style?: React.CSSProperties;
 }
 
 export default class extends React.PureComponent<FileSelectProps> {
@@ -21,9 +23,13 @@ export default class extends React.PureComponent<FileSelectProps> {
     }
 
     render() {
+        const { className, style, children, multiple } = this.props;
         return (
-            <label>
-                {this.props.children}
+            <label
+                className={className}
+                style={style}
+            >
+                {children}
                 <input
                     style={{
                         opactiy: 0,
@@ -31,7 +37,7 @@ export default class extends React.PureComponent<FileSelectProps> {
                         display: 'none'
                     }}
                     type={'file'}
-                    multiple={!!this.props.multiple}
+                    multiple={!!multiple}
                     onChange={this.handleChange}
                 />
             </label>

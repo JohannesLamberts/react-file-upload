@@ -11,19 +11,20 @@ export interface FileUpload {
     name: string;
 }
 
+export interface FileUploaderChildrenProps {
+    handleFiles: ((list: File[]) => void);
+    queue: FileUpload[];
+    runManual: () => void
+}
+
 export interface FileUploaderProps {
     url: string;
-    children: (props: {
-        handleFiles: ((list: File[]) => void);
-        queue: FileUpload[];
-        runManual: () => void
-    }) => React.ReactNode;
+    children: (props: FileUploaderChildrenProps) => React.ReactNode;
     runManual?: boolean;
     keepOnFinish?: boolean;
     fieldName?: string;
     method?: 'POST' | 'PATCH' | 'PUT';
     headers?: Object;
-    field?: string;
 }
 
 export default class extends React.PureComponent<FileUploaderProps, {

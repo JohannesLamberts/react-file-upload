@@ -6,6 +6,7 @@ export interface FileUploadDropzoneProps {
     children: React.ReactNode;
     className?: string;
     classNameActive?: string;
+    style?: React.CSSProperties;
 }
 
 export default class extends React.PureComponent<FileUploadDropzoneProps, {
@@ -54,6 +55,7 @@ export default class extends React.PureComponent<FileUploadDropzoneProps, {
     render() {
         return (
             <div
+                style={this.props.style}
                 className={`${this.props.className} ${this.state.dragActive
                     ? this.props.classNameActive
                     : ''}`}
