@@ -14,12 +14,15 @@
   "types": "build/index.d.ts",
   "author": "Johannes Lamberts <info@j-lamberts.de> (http://j-lamberts.de)",
   "license": "MIT",
+  "files": [
+    "build/**"
+  ],
   "scripts": {
     "build": "rimraf build && tslint -p ./tsconfig.json && tsc -p ./tsconfig.json"
   },
   "dependencies": {
     "react": "^16.2.0",
-    "typescript-immutable": "file:../typescript-immutable"
+    "typescript-immutable": "^0.1.1"
   },
   "devDependencies": {
     "@types/react": "^16.0.38",

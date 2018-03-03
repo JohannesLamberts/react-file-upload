@@ -317,13 +317,14 @@ tslint@^5.9.1:
     tsutils "^2.12.1"
 
 tsutils@^2.12.1, tsutils@^2.13.1:
-  version "2.22.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.22.0.tgz#26694814556a09bb5afd4802462931ad5294e3fa"
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.22.1.tgz#30450bd701be623b9e11a129df0c32322678461b"
   dependencies:
     tslib "^1.8.1"
 
-"typescript-immutable@file:../typescript-immutable":
-  version "0.1.1"
+typescript-immutable@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/typescript-immutable/-/typescript-immutable-0.1.2.tgz#2f1faa580a9b81d118b8ac95620cd79ec4eea6b6"
 
 typescript@^2.7.2:
   version "2.7.2"
