@@ -14,7 +14,7 @@ export interface FileUpload {
 export interface FileUploaderChildrenProps {
     handleFiles: ((list: File[]) => void);
     queue: FileUpload[];
-    runManual: () => void
+    runManual: () => void;
 }
 
 export interface FileUploaderProps {
