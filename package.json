@@ -1,0 +1,31 @@
+{
+  "name": "react-file-upload",
+  "version": "0.1.0",
+  "description": "File uploader for react.",
+  "repository": "https://github.com/JohannesLamberts/react-file-upload",
+  "keywords": [
+    "cms",
+    "react",
+    "file",
+    "upload",
+    "dropzone"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "Johannes Lamberts <info@j-lamberts.de> (http://j-lamberts.de)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf build && tslint -p ./tsconfig.json && tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "typescript-immutable": "file:../typescript-immutable"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.38",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2"
+  }
+}
