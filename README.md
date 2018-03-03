@@ -1,7 +1,7 @@
-<h1 align="center">react-file-upload</h1>
+<h1 align="center">react-file-uploads</h1>
 
 <div align="center">
-[![CircleCI](https://img.shields.io/circleci/project/github/JohannesLamberts/react-file-upload/master.svg)](https://circleci.com/gh/JohannesLamberts/react-file-upload)
+[![CircleCI](https://img.shields.io/circleci/project/github/JohannesLamberts/react-file-uploads/master.svg)](https://circleci.com/gh/JohannesLamberts/react-file-uploads)
 </div>
 
 # Features
@@ -25,7 +25,7 @@ import {
     FileDropzone,
     FileSelect,
     FileUploader
-}                                 from 'react-file-upload';
+}                                 from 'react-file-uploads';
 
 export default () => (
     <FileUploader
@@ -78,7 +78,7 @@ import {
     FileDropzone,
     FileSelect,
     FileUploader
-}                                 from 'react-file-upload';
+}                                 from 'react-file-uploads';
 
 export default () => (
     <FileUploader

@@ -1,8 +1,8 @@
 {
-  "name": "react-file-upload",
+  "name": "react-file-uploads",
   "version": "0.1.0",
   "description": "File uploader for react.",
-  "repository": "https://github.com/JohannesLamberts/react-file-upload",
+  "repository": "https://github.com/JohannesLamberts/react-file-uploads",
   "keywords": [
     "cms",
     "react",
